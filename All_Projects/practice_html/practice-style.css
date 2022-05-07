@@ -1,0 +1,35 @@
+body {
+margin: 0px;
+}
+
+div {
+position: relative;
+background-color: #D0EFFF;
+}
+
+.diamond {
+padding-left: 10px;
+width: 30px;
+height: 30px;
+}
+
+.top-word1 {
+margin: 0;
+position: absolute;
+top: 3px;
+right: 250px;
+}
+
+.top-word2 {
+margin: 0;
+position: absolute;
+top: 3px;
+right: 150px;
+}
+
+.top-word3 {
+margin: 0px;
+position: absolute;
+top: 3px;
+right: 10px;
+}
