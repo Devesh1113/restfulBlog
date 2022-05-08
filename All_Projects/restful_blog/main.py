@@ -10,7 +10,6 @@ import datetime
 from flask_login import UserMixin, login_user, LoginManager, current_user, logout_user
 from functools import wraps
 from flask import g, request, redirect, url_for, abort
-from sqlalchemy import Table, Column, Integer, ForeignKey
 from sqlalchemy.orm import relationship
 from sqlalchemy.ext.declarative import declarative_base
 from flask_gravatar import Gravatar
